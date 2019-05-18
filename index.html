@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="excelStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Sonsie+One&display=swap" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <title>A1 Course</title>
+</head>
+<body>
+    <header>
+        <span id="title">A1 Course</span>
+        <div id="sidePanel" class="sidePanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times</a>
+            <a href="#" class="menu">Inicio</a>
+            <a href="#" class="menu">Acerca</a>
+            <a href="#" class="menu">Contribuir</a>
+        </div>
+        <span id="panelBtn" class="openbtn" onclick="openNav()">&#9776</span>
+    </header>
+    <br>
+    <div class="container-fluid cuerpo">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 horarios">
+                <iframe height="400" width="750" class="iHorario" src="HorarioA1.htm" frameborder="0"></iframe>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 enlaces">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6 optionBorder">
+                        <div class="option" style="background-image: url('img/newsBoard.jpg')">
+                            <h2>Anuncios</h2>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6 optionBorder">
+                            <div class="option" style="background-image: url('img/library.jpg')">
+                                <h2>Recursos</h2>
+                                <div class="overlay"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6 optionBorder">
+                                <div class="option" style="background-image: url('img/U-Classroom.jpg')">
+                                    <h2 style="left: 25%;">Asignaciones</h2>
+                                    <div class="overlay"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-6 optionBorder">
+                                <div class="option" style="background-image: url('img/Studying.jpg')">
+                                    <h2>Practicas</h2>
+                                    <div class="overlay"></div>
+                                </div>
+                            </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
